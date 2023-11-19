@@ -1,0 +1,13 @@
+<?php
+
+namespace {{namespace}};
+
+use Bytenetizen\FastReplace\PieceMutators\Piece;
+
+class {{class}} extends Piece
+{
+    public function getValue(): string
+    {
+        return '{{class}}!';
+    }
+}
