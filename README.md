@@ -91,6 +91,13 @@ Step 2:
 
 notation: Use options can be combined!
 
+#### To use the cache and still receive up-to-date information, use uni
+
+        $arr = [
+            'uni'=>'',// user_id/ order_id ...
+            'arrPlaceholder'=>['TEST'=>'Yap! Good test!','MY_NAME'=>'Promitey'],
+        ];
+
 option: 1 pass parameters immediately
 
         $arr = [
